@@ -1,0 +1,122 @@
+body {
+    background-color: #f5f5e2;
+}
+
+#burger-logo {
+    width: 250px !important;
+    display: block;
+    margin-top: 20px;
+}
+#burger_name, #burger_logo {
+    border-radius: 15px;
+    background-color:#ffffef !important;
+    color: #5a5e8a !important;
+    border: none !important;
+    box-shadow: -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6)!important;
+    -moz-box-shadow:  -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6) !important;
+    -webkit-box-shadow:  -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6) !important;
+}
+.btn-primary {
+    background-color: #f39509;
+    border-color: #f39509;
+        box-shadow: -4px -4px 7px 0px rgba(255, 229, 182, 0.637), 4px 4px 10px 0px rgba(255, 255, 255, 0.9) !important;
+        -moz-box-shadow: -4px -4px 7px 0px rgba(255, 229, 182, 0.637), 4px 4px 10px 0px rgba(255, 255, 255, 0.9) !important;
+        -webkit-box-shadow: -4px -4px 7px 0px rgba(255, 229, 182, 0.637), 4px 4px 10px 0px rgba(255, 255, 255, 0.9) !important;
+    }
+    .btn-primary:hover {
+        background-color: #d67e0a;
+        border-color: #d67e0a;
+            box-shadow: -4px -4px 7px 0px rgba(255, 229, 182, 0.637), 4px 4px 10px 0px rgba(255, 255, 255, 0.9) !important;
+            -moz-box-shadow: -4px -4px 7px 0px rgba(255, 229, 182, 0.637), 4px 4px 10px 0px rgba(255, 255, 255, 0.9) !important;
+            -webkit-box-shadow: -4px -4px 7px 0px rgba(255, 229, 182, 0.637), 4px 4px 10px 0px rgba(255, 255, 255, 0.9) !important;
+        }
+.container {
+    margin-top: 20px;
+}
+.delete-burger {
+    border-radius: 10px;
+    color: #d60000;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #e0e0d2 !important;
+    background-color: #f5f5e2 !important;
+    box-shadow: -2px -2px 2px 0 rgba(241, 240, 224, 0.4), 2px 2px 4px 0 rgba(241, 240, 224, 0.4), -4px -4px 4px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6)!important;
+    -moz-box-shadow:  -2px -2px 2px 0 rgba(241, 240, 224, 0.4), 2px 2px 4px 0 rgba(241, 240, 224, 0.4), -4px -4px 4px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6)!important;
+    -webkit-box-shadow:  -2px -2px 2px 0 rgba(241, 240, 224, 0.4), 2px 2px 4px 0 rgba(241, 240, 224, 0.4), -4px -4px 4px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6)!important;
+    float: right;
+    text-align: center;
+    vertical-align: text-top;
+}
+    .delete-burger:hover {
+        border-radius: 10px;
+        color: #f5f5e2;
+        height: 30px;
+        font-size: 16px;
+        border: 1px solid #e0e0d2 !important;
+        background-color: #d60000 !important;
+        box-shadow: -2px -2px 2px 0 rgba(77, 3, 3, 0.4)inset, 2px 2px 4px 0 rgba(223, 135, 135, 0.753)inset, -4px -4px 4px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6)!important;
+        -moz-box-shadow:  -2px -2px 2px 0 rgba(77, 3, 3, 0.4)inset, 2px 2px 4px 0 rgba(223, 135, 135, 0.753)inset, -4px -4px 4px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6) !important;
+        -webkit-box-shadow:  -2px -2px 2px 0 rgba(77, 3, 3, 0.4)inset, 2px 2px 4px 0 rgba(223, 135, 135, 0.753)inset, -4px -4px 4px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6) !important;
+        float: right;
+        text-align: center;
+        vertical-align: text-top;
+    }
+.devoured-burger {
+    border-radius: 10px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #e0e0d2 !important;
+    background-color: #f5f5e2 !important;
+    box-shadow: -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6)!important;
+    -moz-box-shadow: -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6)!important;
+    -webkit-box-shadow:  -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6)!important;
+    float: right;
+    text-align: center;
+    vertical-align: text-top;
+}
+    .devoured-burger:hover {
+        border-radius: 10px;
+        height: 30px;
+        font-size: 16px;
+        border: 1px solid #f5f5e2 !important;
+        background-color: #eeeedc !important;
+        box-shadow: -2px -2px 2px 0 rgba(255, 255, 255, 0.3), 2px 2px 4px 0 rgba(241, 240, 224, 0.6)inset, -4px -4px 4px 0px rgba(255, 255, 255, 0.6), -4px -4px 3px 0px rgba(241, 240, 224, 0.3) inset !important;
+        -moz-box-shadow:  -2px -2px 2px 0 rgba(255, 255, 255, 0.6)inset, 2px 2px 4px 0 rgba(241, 240, 224, 0.2)inset, -4px -4px 4px 0px rgba(255, 255, 255, 0.6), 4px 4px 3px 0px rgba(241, 240, 224, 0.4)!important;
+        -webkit-box-shadow:  -2px -2px 2px 0 rgba(255, 255, 255, 0.6)inset, 2px 2px 4px 0 rgba(241, 240, 224, 0.2)inset, -4px -4px 4px 0px rgba(255, 255, 255, 0.6), 4px 4px 3px 0px rgba(241, 240, 224, 0.4)!important;
+        float: right;
+        text-align: center;
+        vertical-align: text-top;
+    }
+.far {
+    vertical-align: text-top;
+}
+.form-input {
+    border-radius: 25px;
+    background-color:#f5f5e2 !important;
+    color: #5a5e8a !important;
+    border: none !important;
+    box-shadow: -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6)!important;
+    -moz-box-shadow:  -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6) !important;
+    -webkit-box-shadow:  -2px -2px 2px 0 rgba(241, 240, 224, 0.2), 2px 2px 4px 0 rgba(241, 240, 224, 0.2), -4px -4px 7px 0px rgba(230, 222, 208, 0.6), 4px 4px 3px 0px rgba(255, 255, 255, 0.6) !important;
+}
+h1, h2 {
+    font-family: 'Londrina Shadow', Arial, Helvetica, sans-serif;
+    color: #6d420b;
+
+}
+.img-fluid {
+    width: 500px;
+    text-align: center;
+}
+input[type='text'] {
+    font-size: 20px;
+    font-family: 'Loved by the King', Arial, Helvetica, sans-serif;
+}
+
+li{
+    font-family: 'Loved by the King', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #4d2c02;
+    line-height: 2.5em;
+    border-bottom: 1px dotted #4d2c02;
+}

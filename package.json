@@ -1,0 +1,24 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "create and destroy list of burgers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardoshaffer/Burger.git"
+  },
+  "author": "Ricardo Shaffer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardoshaffer/Burger/issues"
+  },
+  "homepage": "https://github.com/ricardoshaffer/Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "mysql": "^2.18.1"
+  }
+}

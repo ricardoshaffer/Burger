@@ -1,0 +1,69 @@
+<div class="text-center">
+    <h1>Burgers!</h1>
+</div>
+  <div class="row">
+    <div class="col-sm">
+        <div class="text-center">
+        <img id="burger-logo" src="/burger-whole.png" class="img-fluid mx-auto"  alt="burgers I wanna eat">
+        </div>
+    <h2 class="text-center">burgers I wanna eat!</h2>
+      <ul>
+        {{#each burgers}}
+            {{#unless devoured}}
+            <li>
+	            {{burger_name}}
+                <button type="image" class="devoured-burger" data-id="{{id}}" data-devoured="{{devoured}}">
+		        Devoured
+	            </button>
+                <button class="delete-burger" data-id="{{this.id}}"><i class="far fa-times-circle"></i></button>
+            </li>
+            {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
+    <div class="col-sm">
+        <div class="text-center">
+        <img id="burger-logo" src="/burger-bite-nobkg.png" class="img-fluid mx-auto"  alt="burgers eaten">
+        </div>
+      <h2 class="text-center">Burgers I've eaten:</h2>
+      {{#each burgers}}
+        {{#if devoured}}
+            <li>
+	            {{burger_name}}
+                <button class="delete-burger" data-id="{{this.id}}"><i class="far fa-times-circle"></i></button>
+            </li>
+        {{/if}}
+        {{/each}}
+      </ul>
+    </li>
+    </div>
+  </div>
+</div>
+
+<div class="container form-input">
+    <div class="text-center">
+        <h2>Add a Burger</h2>
+    </div>
+<form class="create-burger">
+  <div class="form-row align-items-center">
+    <div class="col-sm-3 my-1">
+      <label class="sr-only" for="burger_name">Burger name</label>
+      <input type="text" class="form-control" id="burger_name" name="name">
+    </div>
+    <div class="col-auto my-1">
+        <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input devoured-toggle" id="customControlValidation2" name="devoured" value="1" required>
+            <label class="custom-control-label" for="customControlValidation2">I've eaten it</label>
+        </div>
+        <div class="custom-control custom-radio mb-3">
+            <input type="radio" class="custom-control-input devoured-toggle" id="customControlValidation3" name="devoured" value="0" required>
+            <label class="custom-control-label" for="customControlValidation3">Not yet</label>
+            <div class="invalid-feedback">hey, you gotta pick one!</div>
+        </div>
+    </div>
+    <div class="col-auto my-1">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</form>
+</div>
