@@ -2,7 +2,7 @@
 A generic restaurant app that lets users input the names of burgers they enjoy eating.
 
 ## Deployed at
-*   https://young-scrubland-61503.herokuapp.com/
+*   https://restaurant-menu-logger.herokuapp.com/
 *   using CLI: ```npm start```
 
 ## Architecture
