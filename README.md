@@ -1,5 +1,5 @@
 # Burger
-A generic restaurant app that lets users input the names of burgers they enjoy eating.
+A generic restaurant app that lets users input the names of burgers they enjoy eating. Add/Remove, and devour.
 
 ## Deployed at
 *   https://restaurant-menu-logger.herokuapp.com/
