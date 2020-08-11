@@ -11,7 +11,7 @@ A generic restaurant app that lets users input the names of burgers they enjoy e
 
 **_Structure_**
 *   Utilizes MySQL, Express-Handlebars.
-
+*   Built using JavaScript.
 ## Credits
 *   Wireframe structure, navigation, and responsiveness developed using **Bootstrap**, https://GetBootstrap.com, version 4.4.1.
 *   hamburger images created in Adobe Illustrator, Ricardo Shaffer.
