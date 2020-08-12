@@ -1,5 +1,12 @@
 # Burger
 A generic restaurant app that lets users input the names of burgers they enjoy eating. Add/Remove, and devour.
+*   User enters item(s) they'd like to eat.
+*   User then selects if they've eaten it, 'I've eaten it', or if they have not 'not yet'.
+*   User then submits it where it is stored in JawsDB MySQL Database.
+
+### User changes
+*   User can move item from 'not yet' to 'devoured' by clicking on added item button.
+*   User can delete the item from the database by clicking on red 'X'.
 ![](public/burger-app-interface.png)
 
 ## Deployed at
