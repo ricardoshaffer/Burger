@@ -6,6 +6,7 @@ A generic restaurant app that lets users input the names of burgers they enjoy e
 
 ### User changes
 *   User can move item from 'not yet' to 'devoured' by clicking on added item button.
+![](public/Burger-Devoured.png)
 *   User can delete the item from the database by clicking on red 'X'.
 ![](public/burger-app-interface.png)
 
