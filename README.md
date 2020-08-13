@@ -1,4 +1,5 @@
 # Burger
+### built using Handlebars.
 A generic restaurant app that lets users input the names of burgers they enjoy eating. Add/Remove, and devour.
 *   User enters item(s) they'd like to eat.
 *   User then selects if they've eaten it, 'I've eaten it', or if they have not 'not yet'.
@@ -17,6 +18,9 @@ A generic restaurant app that lets users input the names of burgers they enjoy e
 ## Architecture
 **_Wireframe_**
 *   Consists of (1) page with a form that goes to either left (if the user has yet to eat it) & the right side if they've eaten the burger.
+*   The actual website contains an easy-to-understand layout with a whole burger and a burger with a bite removed.  The concept is that one has been eaten and where the items the user has eaten will be located.
+*   Adding a new menu item will give the user the option to directly place which column the item will go in.
+
 
 **_Structure_**
 *   Utilizes MySQL, Express-Handlebars.
